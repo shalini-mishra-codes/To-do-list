@@ -1,0 +1,117 @@
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 30px;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-section input {
+    flex: 1;
+    padding: 14px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .input-section input:focus {
+    border-color: #2575fc;
+  }
+  
+  .input-section button {
+    padding: 14px 20px;
+    background-color: #2575fc;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .input-section button:hover {
+    background-color: #6a11cb;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f7f7f7;
+    padding: 14px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+    background: #e2e2e2;
+  }
+  
+  .task-buttons button {
+    margin-left: 6px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .task-buttons .complete-btn {
+    background-color: #00c853;
+    color: white;
+  }
+  
+  .task-buttons .edit-btn {
+    background-color: #ffab00;
+    color: white;
+  }
+  
+  .task-buttons .delete-btn {
+    background-color: #d50000;
+    color: white;
+  }
+  
+  .task-buttons button:hover {
+    opacity: 0.85;
+  }
+  
+  .counts {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #444;
+  }
+  
